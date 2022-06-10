@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habitaciones>
+    <habitacion>
+        <precio>50000</precio>
+    </habitacion>
+    <habitacion>
+        <precio>45000</precio>
+    </habitacion>
+    <habitacion>
+        <precio>40000</precio>
+    </habitacion>
+    <habitacion>
+        <precio>35000</precio>
+    </habitacion>
+
+</habitaciones>
+
+<!-- aqui obviamente falta -->
