@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <habitaciones>
-    <habitacion>
+
+
+<habitacion id="1">
+        <codigo>0001</codigo>
+        <nombre>101</nombre>
         <precio>50000</precio>
     </habitacion>
-    <habitacion>
+
+    <habitacion id="2">
+        <codigo>0002</codigo>
+        <nombre>102</nombre>
         <precio>45000</precio>
     </habitacion>
-    <habitacion>
+
+    <habitacion id="3">
+        <codigo>0003</codigo>
+        <nombre>103</nombre>
         <precio>40000</precio>
     </habitacion>
-    <habitacion>
+
+    <habitacion id="4">
+        <codigo>0004</codigo>
+        <nombre>104</nombre>
         <precio>35000</precio>
     </habitacion>
 
-</habitaciones>
 
-<!-- aqui obviamente falta -->
+</habitaciones> 
+
