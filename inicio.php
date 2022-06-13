@@ -9,8 +9,11 @@ require 'funciones/CargarPrecios.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluacion2 | Inicio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
+    <div class="container dflex">
     <div style="display: block;">
         <h2>Seleccione precio: </h2> 
 
@@ -19,14 +22,16 @@ require 'funciones/CargarPrecios.php';
             <option value="0">Precio</option>
             <?php mostrar();?>
             </select>
-            <input type="submit" value="Buscar">
+            <input type="submit" class="btn btn-primary" value="Buscar">
         </form>
         <br>
 
         <a href="ver_todas.php">Buscar todas las habitaciones</a>
     </div>
+    </div>
 
     
 </body>
-<footer>Pipe_Andres_Parra</footer>
+<footer style="margin-bottom:0; text-align:center;"
+>Pipe_Andres_Parra</footer>
 </html>
